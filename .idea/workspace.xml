@@ -5,34 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68d50262-b4a4-44d5-97c5-4ff9ac096e35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/ConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/ConsumerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/ConsumerRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/producer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/java/org/broker/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/org/broker/producer/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/java/org/broker/producer/ProducerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/org/broker/producer/ProducerRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,6 +51,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.dto [clean,install].executor": "Run",
+    "Maven.dto [clean].executor": "Run",
+    "Maven.dto [install].executor": "Run",
     "Maven.kafka [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -54,20 +61,35 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ConsumerApplication.executor": "Run",
     "Spring Boot.ProducerApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/killr/Projects/kafka",
+    "last_opened_file_path": "C:/Users/killr/Projects/kafka/dto/src/main/java/org/broker/dto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\killr\Projects\kafka\dto\src\main\java\org\broker\dto" />
+      <recent name="C:\Users\killr\Projects\kafka" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="org.broker.consumer" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -107,11 +129,25 @@
       <option name="presentableId" value="Default" />
       <updated>1721427077990</updated>
       <workItem from="1721427079145" duration="650000" />
-      <workItem from="1721477715930" duration="8884000" />
+      <workItem from="1721477715930" duration="14510000" />
+      <workItem from="1721552372072" duration="647000" />
+      <workItem from="1721553061620" duration="34000" />
+      <workItem from="1721553107412" duration="1161000" />
+      <workItem from="1721555093127" duration="5891000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

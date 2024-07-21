@@ -1,6 +1,7 @@
 package org.broker.producer;
 
 import lombok.RequiredArgsConstructor;
+import org.broker.dto.MessageDto;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -8,9 +9,9 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class KafkaProducer {
 
-    private final KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, MessageDto> kafkaTemplate;
 
-    public void sendMessage(String message) {
+    public void sendMessage(MessageDto message) {
         kafkaTemplate.send("try", message);
     }
 

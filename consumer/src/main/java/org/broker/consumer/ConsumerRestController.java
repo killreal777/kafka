@@ -1,8 +1,11 @@
 package org.broker.consumer;
 
 import lombok.RequiredArgsConstructor;
+import org.broker.dto.MessageDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.time.LocalTime;
 
 @RestController
 @RequiredArgsConstructor
@@ -12,7 +15,7 @@ public class ConsumerRestController {
 
     @GetMapping("/")
     public String home() {
-        return "Consumer\n";
+        return "Consumer " + LocalTime.now() + "\n";
     }
 
     @GetMapping("/all")
@@ -26,12 +29,12 @@ public class ConsumerRestController {
     }
 
     @GetMapping("/first")
-    public String first() {
+    public MessageDto first() {
         return (length() > 0) ? kafkaConsumer.getMessages().get(0) : null;
     }
 
     @GetMapping("/last")
-    public String last() {
+    public MessageDto last() {
         return (length() > 0) ? kafkaConsumer.getMessages().get(length() - 1) : null;
     }
 
