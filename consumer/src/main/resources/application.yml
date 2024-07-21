@@ -1,12 +1,20 @@
 server:
   port: 8080
 
+application:
+  kafka:
+    topic: "try"
+
 spring:
   application:
     name: consumer
   kafka:
     consumer:
+      group-id: "kafka-try"
+      client-id: "consumer"
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
-        spring.json.trusted.packages: org.broker.dto
+        spring.json:
+          trusted.packages: org.broker.consumer
+          type.mapping: "org.broker.producer.MessageDto:org.broker.consumer.MessageDto"

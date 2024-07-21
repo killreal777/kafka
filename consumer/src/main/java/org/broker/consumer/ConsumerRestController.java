@@ -1,7 +1,6 @@
 package org.broker.consumer;
 
 import lombok.RequiredArgsConstructor;
-import org.broker.dto.MessageDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

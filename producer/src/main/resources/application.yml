@@ -1,10 +1,15 @@
 server:
   port: 8000
 
+application:
+  kafka:
+    topic: "try"
+
 spring:
   application:
     name: producer
   kafka:
     producer:
+      client-id: "producer"
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

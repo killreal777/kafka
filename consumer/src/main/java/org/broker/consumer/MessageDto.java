@@ -1,4 +1,4 @@
-package org.broker.dto;
+package org.broker.consumer;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

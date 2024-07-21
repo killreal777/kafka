@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68d50262-b4a4-44d5-97c5-4ff9ac096e35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/ConsumerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/ConsumerRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/broker/consumer/KafkaConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/src/main/java/org/broker/dto/MessageDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/java/org/broker/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/org/broker/producer/KafkaProducer.java" afterDir="false" />
@@ -86,8 +91,9 @@
       <recent name="C:\Users\killr\Projects\kafka" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
       <recent name="org.broker.consumer" />
+      <recent name="org.broker.producer" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +139,7 @@
       <workItem from="1721552372072" duration="647000" />
       <workItem from="1721553061620" duration="34000" />
       <workItem from="1721553107412" duration="1161000" />
-      <workItem from="1721555093127" duration="5891000" />
+      <workItem from="1721555093127" duration="9545000" />
     </task>
     <servers />
   </component>
